@@ -100,9 +100,11 @@ header .youtube{
 
 /*standard section styling for the content sections*/
 section{
+  clear: both;
   width: 60%;
   margin: 5% 20% 0 20%;
   border: 1px solid white;
+  position: relative;
 }
 
 /* styling for the circles under the header image */
@@ -168,8 +170,59 @@ section{
 
 .storyBoxes a{
   color: red;
-  font-size: small;
+  font-size: 10px;
   position: absolute;
-  left: 40px;
+  left: 50px;
   bottom: 10px;
 }
+
+/*this will host the styling for the skateboarders tag*/
+.sidetag{
+  clear: both;
+  border: 1px solid blue;
+  width: 30%;
+  margin-left: -25%;
+  margin-top: 5%;
+/*   position: absolute; */
+  margin-left: -28%;
+
+}
+
+.sidetag ul{
+  list-style-type: none;
+}
+.sidetag li{
+  float: left;
+}
+
+
+.title{
+  width: auto;
+  font-size: 7px;
+  color: white;
+  height: 50px;
+  background-color: #ff0000;
+  vertical-align: middle;
+}
+
+.title h2{
+  margin-top: 20%;
+}
+.sidetag p{
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 20px;
+  border-color: transparent transparent transparent #ff0000;
+  margin: 0;
+}
+
+/*
+.sidetag span{
+  margin-left: -16%;
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 25px 0 25px 20px;
+  border-color: transparent transparent transparent #ff0000;
+} */
