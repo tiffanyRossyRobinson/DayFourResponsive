@@ -73,14 +73,14 @@ header .youtube{
   border: 1px solid black;
 }
 
-/* Header Image Log styling */
+/* Header Image Log block styling */
 
 .headerImage {
   border: 5px solid white;
   clear: both;
   margin-top: 10%;
   height: 200px;
-  background: url('top-image.png') center center no-repeat fixed;
+  background: url('top-image.png') no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -96,4 +96,70 @@ header .youtube{
   position: absolute;
   bottom: 20px;
   left: 10px;
+}
+
+/*standard section styling for the content sections*/
+section{
+  width: 60%;
+  margin: 5% 20% 0 20%;
+  border: 1px solid white;
+}
+
+/* styling for the circles under the header image */
+.circles{
+  margin: 0 0% 0 35%;
+}
+
+.circles ul{
+  list-style-type: none;
+  color: white;
+}
+
+.circles li{
+  float: left;
+  margin-right: 3%;
+  border-radius: 100%;
+  border: .5 solid black;
+  box-shadow: 0px 5px 2px grey;
+}
+
+/*This will be the stying for the boxes hosting the stories*/
+.storyBoxes{
+  clear: both;
+  margin-top: 4%;
+}
+.storyBoxes ul{
+  list-style-type: none;
+  padding: 0;
+  text-color: black;
+  margin-top: 10%;
+  width: 105%
+}
+
+.storyBoxes li{
+  float: left;
+  width: 30%;
+  height: 200px;
+  margin-left: 0;
+  background-color: white;
+  border: 1 solid black;
+  margin-right: 2%;
+  padding: 3px;
+}
+
+.storyBoxes h1{
+  color: grey;
+  font-size: 16px;
+  height: 30%;
+}
+
+.storyBoxes p{
+  color: grey;
+  font-size: 9px;
+}
+
+.storyBoxes a{
+  color: red;
+  padding: 0 20% 0 20%;
+  font-size: small;
 }
