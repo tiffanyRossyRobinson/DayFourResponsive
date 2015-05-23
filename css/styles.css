@@ -179,12 +179,12 @@ section{
 /*this will host the styling for the skateboarders tag*/
 .sidetag{
   clear: both;
-  border: 1px solid blue;
-  width: 30%;
+/*   border: 1px solid blue; */
+  width: 29%;
   margin-left: -25%;
-  margin-top: 5%;
-/*   position: absolute; */
-  margin-left: -28%;
+  margin-top: 60px;
+  position: absolute;
+  margin-left: -30%;
 
 }
 
@@ -217,12 +217,73 @@ section{
   margin: 0;
 }
 
-/*
-.sidetag span{
-  margin-left: -16%;
-  width: 0;
-  height: 0;
-  border-style: solid;
-  border-width: 25px 0 25px 20px;
-  border-color: transparent transparent transparent #ff0000;
-} */
+/* This section will begin styling the SK8ER images */
+
+.sk8Img{
+  position: relative;
+  margin-top: 5%;
+}
+
+.sk8Img img{
+  width: 100%;
+  height: 100%;
+}
+
+.sk84{
+
+  width: 30%;
+  height: 160px;
+  border: 1px solid white;
+  float: left;
+  margin-right: 2%;
+  position: relative;
+
+}
+
+.sk84 h1{
+  color: white;
+  text-align: center;
+  margin-top: -60%;
+}
+
+.sk83{
+  width: 30%;
+  height: 160px;
+  border: 1px solid white;
+  float: left;
+  position:relative;
+}
+
+.sk83 h1{
+  color: white;
+  text-align: center;
+  margin-top: -60%;
+}
+.sk82{
+  width: 36%;
+  height: 320px;
+  border: 1px solid white;
+  float: right;
+  position: relative;
+}
+
+.sk82 h1{
+  color: white;
+  text-align: center;
+  margin-top: -60%;
+}
+
+.sk81{
+  width: 62%;
+  float: left;
+  height: 146px;
+  border: 1px solid white;
+  clear: right;
+  margin-top: -27%;
+}
+
+.sk81 h1{
+  color: white;
+  text-align: center;
+  margin-top: -25%;
+}
