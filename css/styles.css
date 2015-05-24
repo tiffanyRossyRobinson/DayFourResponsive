@@ -279,11 +279,20 @@ section{
   height: 146px;
   border: 1px solid white;
   clear: right;
-  margin-top: -27%;
+  margin-top: -24%;
 }
 
 .sk81 h1{
   color: white;
   text-align: center;
   margin-top: -25%;
+}
+
+/*This section will style the skateboards on the page.*/
+
+.boards{
+  clear: both;
+  height: 200px;
+  background-color: white;
+  margin-top: 33%;
 }
