@@ -1,0 +1,16 @@
+/* styling for the circles under the header image */
+.circles{
+  margin: 0 0% 0 35%;
+  ul{
+    list-style-type: none;
+    color: white;
+  }
+
+  li{
+    float: left;
+    margin-right: 3%;
+    border-radius: $f;
+    border: .5 solid black;
+    box-shadow: 0px 5px 2px grey;
+  }
+}

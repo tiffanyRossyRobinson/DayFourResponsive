@@ -1,0 +1,366 @@
+$midWidth: 60%;
+$b: both;
+$f: 100%;
+$h: 50%;
+$fi: 50px;
+@import "_boards.scss";
+@import "_circles.scss";
+@import "_footer.scss";
+@import "_header.scss";
+@import "_menuBar.scss";
+@import "_sidetag.scss";
+@import "_storyBoxes.scss";
+
+
+
+
+body {           /*this places the background image on the page*/
+  background: url('bg.jpg') center center no-repeat fixed;
+
+  background-size: cover;
+}
+
+
+
+.subscribe{
+  float: right;
+  margin-right: 3%;
+  margin-top: 1%;
+  display: inline-block;
+  font-size: xx-small;
+  color: white;
+
+}
+
+/*Top menu bar styling*/
+.dropMenu{
+  display:none;
+  color:red;
+}
+.menu{
+  clear: both;
+}
+
+
+.sk8bTitle2{
+  display: none;
+}
+
+/* Header Image Log block styling */
+
+.headerImage {
+  border: 5px solid white;
+  clear: $b;
+  margin-top: 10%;
+  height: 200px;
+  background: url('top-image.png') no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.gImage{
+  width: $f;
+  height: $f;
+  z-index: 3;
+}
+
+.pLogo{
+  height: 150px;
+  position: absolute;
+  bottom: 20px;
+  left: 10px;
+}
+
+/*standard section styling for the content sections*/
+section{
+  clear: $b;
+  width: $midWidth;
+  margin: 5% 20% 0 20%;
+  border: 1px solid white;
+  position: relative;
+}
+
+/*this will host the styling for the skateboarders tag*/
+
+
+.title{
+  width: auto;
+  font-size: 7px;
+  color: white;
+  height: $fi;
+  background-color: #ff0000;
+  vertical-align: middle;
+  h2{
+    margin-top: 20%;
+  }
+}
+
+/* This section will begin styling the SK8ER images */
+
+.sk8Img{
+  position: relative;
+  margin-top: 5%;
+  img{
+    width:$f;
+    height:$f;
+  }
+}
+
+.sk8Img1{
+  float:left;
+/*   border: 1px solid red; */
+  width:66%;
+/*   background-color:white; */
+  height:280px;
+}
+
+.sk8Img2{
+  float:right;
+  /* border: 1px solid red; */
+  width:32%;
+  /* background-color:white; */
+  height:280px;
+}
+
+.sk8Img3{
+  display:none;
+}
+.sk8Img4{
+  display:none;
+}
+
+.sk84{
+  width:49%;
+  height:140px;
+/*   border: 1px solid red; */
+  float:left;
+  position:relative;
+  h1{
+    color:white;
+    text-align:center;
+    position:absolute;
+    margin-top:-50%;
+  }
+}
+
+.sk83{
+  width:49%;
+  height:140px;
+  /* border:1px solid red; */
+  float:right;
+  position:relative;
+  h1{
+    color:white;
+    text-align:center;
+    position:absolute;
+    margin-top:-50%;
+  }
+}
+
+
+
+.sk81{
+    width:$f;
+    height:135px;
+  /*   border:1px solid red; */
+    position:relative;
+    margin-top:35%;
+    h1{
+      color:white;
+      text-align:center;
+      position:absolute;
+      margin-top:-20%;
+      margin-left:20%;
+    }
+}
+
+
+
+.sk82{
+  width:$f;
+  height:280px;
+/*   border:1px solid white; */
+  position:relative;
+  h1{
+    color:white;
+    text-align:center;
+    position:absolute;
+    margin-top:-60%;
+  }
+}
+
+
+/*This section will style the skateboards on the page.*/
+
+.boardSection {
+  clear: $b;
+  margin-top: 30%;
+  background-color: white;
+  height:260px;
+
+}
+
+
+
+@-webkit-keyframes rotateRight{
+    0%{ -webkit-transform:rotateY(0deg); -webkit-transform-origin:50% 50%; }
+    100%{ -webkit-transform:rotateY(360deg); }
+}
+
+/* This section is the styling for the footer block with the contact us form*/
+.text{
+  width: $h;
+  float:left;
+  margin-left: 5%;
+}
+
+.fname{
+  width:110%;
+}
+
+.femail{
+  width:110%;
+  margin-top:5%;
+}
+.message{
+  width:110%;
+  height:75px;
+  margin-top: 5%;
+}
+
+.submit{
+  background-color:red;
+  color: white;
+  margin-top: 5%;
+  margin-left:35%;
+  width: 75%;
+}
+
+
+
+/* Start styling responsiveness */
+
+
+@media screen and (max-width:996px){
+  header{
+    /* border: 2px solid red; */
+    width: $f;
+    margin: 0;
+    li{
+      width:$fi;
+      height:$fi;
+    }
+  }
+
+  .icon-facebook{
+    font-size:$fi;
+  }
+  .icon-rss{
+    font-size:$fi;
+  }
+  .icon-twitter{
+    font-size:$fi;
+  }
+  .icon-youtube-sign{
+    font-size:$fi;
+  }
+  .subscribe{
+    font-size: 20px;
+    margin-top:0;
+    display:none;
+  }
+  .dropMenu{
+    display:block;
+    width:300px;
+    font-size:25px;
+  }
+  .menubar{
+    display:none;
+  }
+  .headerImage{
+    margin-top:5%;
+  }
+  .circles{
+    display:none;
+  }
+  section{
+    width:$f;
+    margin:0;
+  }
+  .storyBoxes li{
+    float:none;
+    width: $f;
+    padding:0px;
+    height:180px;
+  }
+  .storyBoxes h1{
+    font-size: 24px;
+    text-align:center;
+    margin-top:5%;
+  }
+  .storyBoxes p{
+    color: grey;
+    font-size: 16px;
+    margin-top:2%;
+  }
+
+  .storyBoxes span{
+    color: lightgrey;
+    font-size: 16px;
+  }
+
+  .storyBoxes a{
+    left:40%;
+    font-size: 16px;
+  }
+  .boardSection{
+    margin-top:5%;
+  }
+  .sk8Img1{
+    display:none;
+  }
+  .sk8Img2{
+    display:none;
+  }
+
+  .sk8Img3{
+    display:block;
+    width:48%;
+    img{
+      width:$f;
+      height:200px;
+    }
+
+    h1{
+      color:white;
+    }
+  }
+
+  .sk8Img4{
+    display:block;
+    width:48%;
+    float:right;
+    margin-top:-64%;
+    img{
+      width:  $f;
+      height:200px;
+      position:relative;
+    }
+    h1{
+      color:white;
+    }
+  }
+  footer{
+    width: $f;
+    position: relative;
+    margin-left:0;
+    height:550px;
+    li{
+      width: 45px;
+    }
+    form{
+      margin-top: 20%;
+    }
+  }
+
+}

@@ -1,0 +1,30 @@
+/* This section is the styling for the footer block with the contact us form*/
+footer{
+    background-color: white;
+    height: 300px;
+    clear: $b;
+    width: $midWidth;
+    margin: 5% 20% 0 20%;
+    border: 1px solid white;
+    position: relative;
+  form{
+    float:left;
+    margin-top: 10%;
+    margin-left: 5%;
+  }
+  ul{
+    list-style-type: none;
+  }
+  li{
+    float: left;
+    color:#f9f9f9;
+    margin-right:5%;
+    background-color:#6F6D6D;
+    width: 15px;
+  }
+  a{
+    display:none;
+    margin-left: 30%;
+  }
+
+}

@@ -1,0 +1,34 @@
+header{
+  /* border: 2px solid red; */
+  width: $midWidth;
+  margin: 0 20% 0 20%;
+  /* styling the social media link images*/
+
+  ul{
+    list-style-type: none;
+    float: right;
+    padding-left: 2%;
+    border-left: 1px dotted white;
+    }
+  li{
+      float: left;
+      margin-right: 10px;
+    /*   border: 1px solid green; */
+      width: 30px;
+      text-align: center;
+      color: white;
+      /* position:relative; */
+    }
+  .facebook {
+      background-color: blue;
+    }
+  .rss{
+      background-color: orange;
+    }
+  .twitter{
+      background-color: #83b9d5;
+    }
+  .youtube{
+      background-color: red;
+    }
+}

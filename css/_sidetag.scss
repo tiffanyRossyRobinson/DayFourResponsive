@@ -1,0 +1,24 @@
+/*this will host the styling for the skateboarders tag*/
+.sidetag{
+  clear: $b;
+/*   border: 1px solid blue; */
+  width: 29%;
+  margin-left: -25%;
+  margin-top: 60px;
+  position: absolute;
+  margin-left: -30%;
+  ul{
+    list-style-type: none;
+  }
+  li{
+    float: left;
+  }
+  p{
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 25px 0 25px 20px;
+    border-color: transparent transparent transparent #ff0000;
+    margin: 0;
+  }
+}
