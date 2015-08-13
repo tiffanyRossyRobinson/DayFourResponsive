@@ -164,7 +164,8 @@ section{
     height:135px;
   /*   border:1px solid red; */
     position:relative;
-    margin-top:35%;
+    margin-top:1%;
+    display: inline-block;
     h1{
       color:white;
       text-align:center;
@@ -324,7 +325,7 @@ section{
   }
 
   .sk8Img3{
-    display:block;
+    display: inline-block;
     width:48%;
     img{
       width:$f;
@@ -337,9 +338,8 @@ section{
   }
 
   .sk8Img4{
-    display:block;
+    display:inline-block;
     width:48%;
-    float:right;
     margin-top:-64%;
     img{
       width:  $f;

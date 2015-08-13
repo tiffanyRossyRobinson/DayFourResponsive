@@ -274,7 +274,8 @@ section {
   height: 135px;
   /*   border:1px solid red; */
   position: relative;
-  margin-top: 35%; }
+  margin-top: 1%;
+  display: inline-block; }
   .sk81 h1 {
     color: white;
     text-align: center;
@@ -392,7 +393,7 @@ section {
   .sk8Img2 {
     display: none; }
   .sk8Img3 {
-    display: block;
+    display: inline-block;
     width: 48%; }
     .sk8Img3 img {
       width: 100%;
@@ -400,9 +401,8 @@ section {
     .sk8Img3 h1 {
       color: white; }
   .sk8Img4 {
-    display: block;
+    display: inline-block;
     width: 48%;
-    float: right;
     margin-top: -64%; }
     .sk8Img4 img {
       width: 100%;
